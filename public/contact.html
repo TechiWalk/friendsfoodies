@@ -15,13 +15,15 @@
   <title>Friends Foodies</title>
 
   <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
   <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap"
+    rel="stylesheet" />
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
@@ -47,7 +49,8 @@
     <div class="container">
       <div class="custom_nav2">
         <nav class="navbar navbar-expand custom_nav-container ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -103,20 +106,24 @@
       <div class="layout_padding2-top">
         <div class="row">
           <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
-            <form action="">
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+              onload="if(submitted) {window.location='http://127.0.0.1:5501/public/index.html';}"></iframe>
+            <form
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZ7GJGqZVFhFAwVsfQ1rATMzSDKn3wGq3lnxyiBSgOHp9Sow/formResponse"
+              target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="return validateForm()">
               <div class="contact_form-container">
                 <div>
                   <div>
-                    <input type="text" placeholder="Full Name" />
+                    <input type="text" name="entry.2073407481" id="c-name" placeholder="Full Name" />
                   </div>
                   <div>
-                    <input type="email" placeholder="Email" />
+                    <input type="email" name="entry.381575139" id="c-email" placeholder="Email" />
                   </div>
                   <div>
-                    <input type="text" placeholder="Phone Number" />
+                    <input type="text" name="entry.186245607" id="c-phone" placeholder="Phone Number" />
                   </div>
                   <div>
-                    <input type="text" class="message_input" placeholder="Message" />
+                    <input type="text" name="entry.1620633585" class="message_input" placeholder="Message" />
                   </div>
                   <div>
                     <button type="submit">
@@ -130,7 +137,10 @@
           <div class="col-md-6 px-0">
             <div class="map_container">
               <div class="map-responsive">
-                <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France"
+                  width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%"
+                  allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -165,7 +175,7 @@
               <img src="images/call.png" alt="">
               <span>
                 Call : +91 88702 45651 or +91 93612 80713
-                        
+
               </span>
             </a>
           </div>
@@ -182,8 +192,12 @@
       <div class="row">
         <div class="col-md-8 col-lg-9">
           <div class="info_form">
-            <form action="">
-              <input type="text" placeholder="Enter your email">
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+              onload="if(submitted) {window.location='https://www.friendsfoodies.com/';}"></iframe>
+            <form
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdwH324bFVWsmjwfh5-QQxhAuVosQXCkVn6GRRqZL5U2s_6wA/formResponse"
+              target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="return validateSubscribe()">
+              <input type="email" id="email" name="entry.709326125" placeholder="Enter your email">
               <button>
                 subscribe
               </button>
@@ -208,13 +222,13 @@
               </a>
             </div>
             <div> -->
-              <a href="">
-                <img src="images/instagram.png" alt="">
-              </a>
-            </div>
+            <a href="">
+              <img src="images/instagram.png" alt="">
+            </a>
           </div>
         </div>
       </div>
+    </div>
 
     </div>
   </section>
@@ -235,6 +249,8 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/contact_validate.js"></script>
+  <script type="text/javascript" src="js/subscribe.js"></script>
 
 </body>
 

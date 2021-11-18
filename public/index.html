@@ -383,20 +383,24 @@
       <div class="layout_padding2-top">
         <div class="row">
           <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
-            <form action="">
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+              onload="if(submitted) {window.location='http://127.0.0.1:5501/public/index.html';}"></iframe>
+            <form
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZ7GJGqZVFhFAwVsfQ1rATMzSDKn3wGq3lnxyiBSgOHp9Sow/formResponse"
+              target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="return validateForm()">
               <div class="contact_form-container">
                 <div>
                   <div>
-                    <input type="text" placeholder="Full Name" />
+                    <input type="text" name="entry.2073407481" id="c-name" placeholder="Full Name" />
                   </div>
                   <div>
-                    <input type="email" placeholder="Email" />
+                    <input type="email" name="entry.381575139" id="c-email" placeholder="Email" />
                   </div>
                   <div>
-                    <input type="text" placeholder="Phone Number" />
+                    <input type="text" name="entry.186245607" id="c-phone" placeholder="Phone Number" />
                   </div>
                   <div>
-                    <input type="text" class="message_input" placeholder="Message" />
+                    <input type="text" name="entry.1620633585" class="message_input" placeholder="Message" />
                   </div>
                   <div>
                     <button type="submit">
@@ -465,8 +469,12 @@
       <div class="row">
         <div class="col-md-8 col-lg-9">
           <div class="info_form">
-            <form action="">
-              <input type="text" placeholder="Enter your email">
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+              onload="if(submitted) {window.location='https://www.friendsfoodies.com/';}"></iframe>
+            <form
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdwH324bFVWsmjwfh5-QQxhAuVosQXCkVn6GRRqZL5U2s_6wA/formResponse"
+              target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="return validateSubscribe()">
+              <input type="email" id="email" name="entry.709326125" placeholder="Enter your email">
               <button>
                 subscribe
               </button>
@@ -517,6 +525,12 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/contact_validate.js"></script>
+  <script type="text/javascript" src="js/subscribe.js"></script>
+
+
+
+
 
 </body>
 
